@@ -1,0 +1,53 @@
+footer{
+    min-width: 360px;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.footertop{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+
+}
+.footertop ul li{
+    list-style-type: none;
+    margin: 8px;
+}
+
+.footerbottom{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerbottom ul{
+    display: flex;
+}
+.footerbottom ul li{
+    list-style-type: none;
+}
+
+.footerbottom li{
+    list-style-type: none;
+    margin: 8px; 
+}
+.footerbottomleft{
+    margin-right: auto;
+}
+.footerbottomright{
+    margin-left: auto;
+}
+
+@media screen and (min-width:520px)  {
+    .footertop{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,117 @@
+.BoxCpnPhoto{
+    min-width: 360px;
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin:15px auto 15px auto;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.MenuAbove5Photo ul{
+    min-width: 320px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+.MenuAbove5Photo ul li{
+
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.Photo{
+    width: 80%;
+    height: auto;
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+}
+.Photo1{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Photo1 img{
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+    margin: 8px;
+}
+.Photo2{
+    max-width: 1920px; 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Photo2 img{
+    width: auto;
+    height: 158px;
+    object-fit: cover;
+    margin: 8px;
+}
+
+#DescriptBelowPhoto{
+    max-width: 400px ;
+    min-width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 0px 20px 0px 20px;
+    /* border: 1px solid red; */
+}
+
+.Readmore{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 32px;
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 16px;
+}
+
+@media screen and (min-width:360px) and (max-width:650px) {
+    .MenuAbove5Photo ul{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (min-width:650px) {
+    .MenuAbove5Photo ul{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    .BoxCpnPhoto{
+        height: 1000px;
+    }
+    .Photo1 img{
+        height: 200px;
+        
+    }
+    .Photo2 img{
+        height: 308px;
+        
+    }
+}
+
+
+

@@ -1,0 +1,37 @@
+.PhotoOfFoodSlide{
+    height: auto;
+    min-width: 360px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.BtnAndPhoto{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-size: 30px;
+}
+.img-PhotoOfFoodSlide{
+    height: 250px;
+    width: 310px;
+    object-fit: cover;
+}
+
+@media screen and (min-width:360px)  {
+    .img-PhotoOfFoodSlide{
+        width: 50%;
+        height: auto;
+    }
+}
+@media screen and (min-width:1000px){
+    .img-PhotoOfFoodSlide{
+        max-width: 1000px;
+        width: 50%;
+        height: 50%;
+        max-width: 19;
+    }
+}

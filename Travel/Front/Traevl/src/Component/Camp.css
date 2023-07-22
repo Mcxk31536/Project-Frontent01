@@ -1,0 +1,70 @@
+.Camp{
+    min-width: 340px;
+    width: 100%;
+    height: auto;
+    margin:15px auto 15px auto;
+    padding: 10px 0 10px 0 ;
+    background-color: rgb(214, 214, 214);
+    
+}
+
+.AllPhotoCamp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 768px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-gap: 12px ;
+}
+
+.PhotoCamp{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#PhotoCamp1{
+    grid-column:2;
+    grid-row:1/span 2;
+}
+#PhotoCamp2{
+    grid-column:1;
+    grid-row:2;
+}
+#PhotoCamp3{
+    grid-column:1;
+    grid-row:1;
+}
+
+.Camp div p{
+    max-width: 600px;
+    min-width: 360px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:650px) {
+    #PhotoCamp1{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column:2;
+        grid-row:1/span 2;
+    }
+    #PhotoCamp2{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column:1;
+        grid-row:2;
+    }
+    #PhotoCamp3{
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        grid-column:1;
+        grid-row:1;
+    }
+}
